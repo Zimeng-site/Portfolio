@@ -30,7 +30,7 @@ export const profile: Profile = {
     name: 'Zimeng Yan',
     tagline: 'Multilingual correspondent connecting Europe, Latin America and China through rigorous reporting.',
     about:
-        'Multilingual journalist (Chinese, Spanish, English) reporting on Europe and Latin America for Chinese audiences, and on China for European newsrooms. I bring deep understanding of both Chinese and European contexts to stories at their intersection. Fluent in Chinese, Spanish and English for interviews, field investigation, and writing, with worldwide sourcing. I conduct rigorous fact-checking and data analysis to support in-depth reporting.',
+        'Multilingual journalist (Mandarin, Spanish, English) with three years of living and reporting experience in Spain. Currently based in Beijing while traveling frequently, reporting on Europe and Latin America for Chinese audiences, and on China for European newsrooms. Builds original sourcing worldwide, with rigorous fact-checking and data analysis underpinning all reporting.',
     contact: {
         email: 'zimengyan2001@gmail.com',
         phone: '+34 652826659',
@@ -58,42 +58,44 @@ export const sections: Section[] = [
                 title: 'Fixer, China Bureau, El País | Beijing',
                 meta: 'February 2025 – Present',
                 details:
-                    'Cover EU-China relations from within China, pitch stories at the intersection of Chinese and Spanish society, and review Spanish reporters’ copy for accuracy of Chinese names, political context and cultural nuance.',
+                    '',
                 bullets: [
-                    'Reported on the EU-China EV tariff dispute and visited Chinese exporter hubs for first-hand trade coverage.',
-                    'Built cross-cultural sourcing for stories such as a Chinese athlete’s legal case in Spain and Chinese reactions to the Spanish Prime Minister’s visit.',
-                    'Conduct interviews, real-time translation and field investigation across Chinese, Spanish and English.',
+                    "Cover EU-China relations from within China — e.g. reported on the EUChina EV tariff dispute; visited Chinese export manufacturing hubs to gather exporters' perspectives on global trade.",
+                    "Identify and pitch stories relevant to Spanish-speaking audiences, drawing on sourcing and trust-building — e.g. Chinese public reaction to the Spanish Prime Minister's visit to China.",
+                    "Conduct interviews, interpretation, and field investigation across Chinese, Spanish, and English, providing cultural mediation to ensure communication is accurate and appropriate across both settings.",
+                    "Review Spanish reporters' copy prior to publication, checking accuracy of Chinese terms, political context, and cultural nuance; also draft background briefings and source summaries in support of the reporting team.",
                 ],
             },
             {
-                title: 'Contributing Reporter, International Desk, Phoenix Weekly | Remote',
+                title: 'Contributing Reporter, International Desk, Phoenix Weekly | Europe/Remote',
                 meta: 'March 2024 – Present',
                 details:
-                    'Report on social phenomena, structural change and the overseas Chinese experience using data-informed research, interviews and long-form storytelling.',
+                    '',
                 bullets: [
-                    'Produced investigative coverage of anti-overtourism protests and troubled European neighborhoods.',
-                    'Tracked Chinese companies’ overseas expansion with ground-level interviews and contextual reporting.',
-                    'Wrote long-form features with multiple articles surpassing 100,000 views online.',
+                    "Write investigative features on Europe through fieldwork — e.g. covered local anti-overtourism protests; investigated the structural problems of vulnerable urban neighbourhoods, interviewing residents, scholars, and local criminal networks.",
+                    "Report on International relations and the experiences of Chinese individuals and companies overseas",
+                    "Conduct interviews in Spanish or English with native speakers, synthesising findings through multi-source interviewing, open-source investigation, and fact-checking, with multiple pieces exceeding 100,000 views."
                 ],
             },
             {
                 title: 'Marketing Intern, Nomahub | Barcelona',
                 meta: 'January 2024 – February 2024',
                 details:
-                    'Worked with a Spanish-speaking team to identify local influencers for campaigns and manage outreach for clients such as La Pedrera and Emma Colchón.',
+                    'Worked in a fully Spanish-speaking team to identify and vet local influencer profiles for brand campaigns including La Pedrera and Emma Colchón, managing outreach and coordination with collaborators.',
             },
             {
-                title: 'Video News Producer Intern, CCTV+ | Beijing',
+                title: 'Spanish Language Intern, CCTV+ | Beijing',
                 meta: 'February 2023 – April 2023',
                 details:
-                    'Supported short-form video content for international platforms, filming, editing, subtitling and advising localisation for Spanish and English markets.',
+                    'Contributed to short-form video content for platforms such as YouTube, assisting with filming, editing, subtitle translation and localisation for Spanish- and English-speaking markets.',
             },
             {
                 title: 'Digital Content Intern, China Newsweek | Beijing',
                 meta: 'November 2022 – February 2023',
                 details:
-                    'Created explanatory digital content on trending cultural phenomena and continued as a freelance contributor after the internship.',
+                    'Produced explanatory content for digital platforms, turning trending cultural phenomena into in-depth analytical pieces and continuing as a freelance contributor with ongoing commissions following the internship.',
             },
+
         ],
     },
     {
