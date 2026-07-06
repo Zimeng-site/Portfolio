@@ -237,6 +237,13 @@ export const sections: Section[] = [
                 href: 'https://elpais.com/internacional/2025-09-29/la-nostalgia-de-los-jovenes-por-el-boom-de-los-2000-arrasa-en-las-redes-sociales-chinas.html',
             },
             {
+                title: 'No photos: Secrecy in the Chinese city of Baotou, the world capital of rare earths',
+                category: 'Fixer',
+                source: 'El País',
+                date: 'August 2025',
+                href: 'https://elpais.com/internacional/2025-08-02/nada-de-fotos-secretismo-en-la-ciudad-china-de-baotou-capital-mundial-de-las-tierras-raras.html',
+            },
+            {
                 title: 'Guangzhou defies Trump despite trade war pressure',
                 category: 'Fixer',
                 source: 'El País',
