@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenClaw Control Panel</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .card {
+      width: 100%;
+      max-width: 560px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid #334155;
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    }
+    h1 { margin-top: 0; font-size: 1.4rem; }
+    p { color: #cbd5e1; }
+    label { display: block; margin-top: 12px; font-weight: 600; }
+    input, textarea, button {
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 8px;
+      padding: 12px;
+      border-radius: 12px;
+      border: 1px solid #475569;
+      font-size: 1rem;
+    }
+    textarea { min-height: 120px; resize: vertical; }
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .status {
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 12px;
+      background: #1e293b;
+      color: #e2e8f0;
+      min-height: 48px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>OpenClaw Control Panel</h1>
+    <p>Send a simple update command to your local site agent from this page.</p>
+
+    <label for="server">Server URL</label>
+    <input id="server" value="http://192.168.1.10:3000" />
+
+    <label for="message">Message</label>
+    <textarea id="message">New article | El País | July 2026 | https://example.com/article</textarea>
+
+    <button onclick="sendCommand()">Send update</button>
+    <div id="status" class="status">Ready.</div>
+  </div>
+
+  <script>
+    async function sendCommand() {
+      const status = document.getElementById('status');
+      const server = document.getElementById('server').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      status.textContent = 'Sending...';
+
+      try {
+        const response = await fetch(`${server}/whatsapp-update`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message })
+        });
+        const data = await response.json();
+        status.textContent = data.message || 'Message sent';
+      } catch (error) {
+        status.textContent = 'Could not reach the server. Check the URL.';
+      }
+    }
+  </script>
+</body>
+</html>
