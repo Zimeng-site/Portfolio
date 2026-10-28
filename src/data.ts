@@ -30,7 +30,7 @@ export const profile: Profile = {
     name: 'Zimeng Yan',
     tagline: 'Multilingual correspondent connecting Europe, Latin America and China through rigorous reporting.',
     about:
-        'Multilingual journalist (Mandarin, Spanish, English) with three years of living and reporting experience in Spain. Currently based in Beijing while traveling frequently, reporting on Europe and Latin America for Chinese audiences, and on China for European newsrooms. Builds original sourcing worldwide, with rigorous fact-checking and data analysis underpinning all reporting.',
+        'Multilingual journalist (Mandarin, Spanish, English) with three years of living and reporting experience in Europe and China. Currently based in Beijing while traveling frequently, reporting on Europe and Latin America for Chinese audiences, and on Asia for European newsrooms. Builds original sourcing worldwide, with field investigation, rigorous fact-checking and data analysis underpinning all reporting.',
     contact: {
         email: 'zimengyan2001@gmail.com',
         phone: '+34 652826659',
@@ -104,6 +104,55 @@ export const sections: Section[] = [
         view: 'portfolio',
         items: [
             {
+                title: 'Chinese women seek to break out of traditional roles',
+                category: 'Fixer',
+                source: 'El País',
+                date: 'October 2026',
+                href: 'https://english.elpais.com/international/2026-10-21/chinese-women-seek-to-break-out-of-traditional-roles.html',
+            },
+            {
+                title: '87-Year-Old Tenant Evicted; Sánchez Seeks Change Ahead of Early Elections',
+                category: 'Reporting',
+                source: 'Phoenix TV',
+                date: 'October 2026',
+                href: 'https://mp.weixin.qq.com/s/fRmR9siYKX7qjKXUnfi2Bg',
+            },
+            {
+                title: 'The EU Plans to Introduce a Social Media Ban—Will It Help Keep Kids Safe Online?',
+                category: 'Reporting',
+                source: 'Phoenix TV',
+                date: 'October 2026',
+                href: 'https://mp.weixin.qq.com/s/ckHVfaAZas40BEH9mwxjSQ',
+            },
+            {
+                title: 'China does not want its internet users to fall in love with an artificial intelligence',
+                category: 'Fixer',
+                source: 'El País',
+                date: 'August 2026',
+                href: 'https://english.elpais.com/technology/2026-08-23/china-does-not-want-its-internet-users-to-fall-in-love-with-an-artificial-intelligence.html',
+            },
+            {
+                title: 'A Moroccan illegal immigrant recounts: Why did we suddenly cross the border into a Spanish enclave?',
+                category: 'Reporting',
+                source: 'Phoenix TV',
+                date: 'August 2026',
+                href: 'https://mp.weixin.qq.com/s/B4fpIhRNuvlwuKBJ3Ida_A',
+            },
+            {
+                title: "Catalonia's Half-Hearted Roar for Spain",
+                category: 'Reporting',
+                source: 'ALL FOOTBALL PTE (Dongqiudi)',
+                date: 'July 2026',
+                href: 'https://mp.weixin.qq.com/s/VOhxuRCVxb1XKlhYcatEWw',
+            },
+            {
+                title: "Mexico's World Cup Outsiders",
+                category: 'Reporting',
+                source: 'ALL FOOTBALL PTE (Dongqiudi)',
+                date: 'July 2026',
+                href: 'https://mp.weixin.qq.com/s/FTIXxebuZ1SUh41BmKsRqg',
+            },
+            {
                 title: 'Right-Wing Influencers Turn Europe’s Vulnerable Neighborhoods into Decline Porn',
                 category: 'Reporting',
                 source: 'Phoenix TV & Phoenix Weekly',
@@ -158,6 +207,27 @@ export const sections: Section[] = [
                 source: 'Phoenix Weekly',
                 date: 'November 2024',
                 href: 'https://mp.weixin.qq.com/s/5FUSP6Y2I8sqgmc1W8JyFg',
+            },
+            {
+                title: "The Hukou: China's Invisible Border That Haunts Its Internal Migrants",
+                category: 'Fixer',
+                source: 'El País',
+                date: 'July 2026',
+                href: 'https://elpais.com/internacional/2026-07-26/el-hukou-la-frontera-invisible-que-persigue-a-los-migrantes-internos-de-china.html',
+            },
+            {
+                title: 'The Roots of Xi Jinping: The Leader Who Stood Up to Trump',
+                category: 'Fixer',
+                source: 'El País',
+                date: 'June 2026',
+                href: 'https://elpais.com/internacional/2026-06-21/viaje-a-las-raices-ideologicas-de-xi-jinping-el-lider-que-planto-cara-a-trump.html',
+            },
+            {
+                title: 'A Day in the Place Where Kites Fly to the World from China',
+                category: 'Fixer',
+                source: 'El País',
+                date: 'June 2026',
+                href: 'https://elpais.com/cultura/2026-06-11/un-dia-en-el-lugar-donde-las-cometas-vuelan-al-mundo-desde-china.html',
             },
             {
                 title: 'China people speak about Trump’s visit',
