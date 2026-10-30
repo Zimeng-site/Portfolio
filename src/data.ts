@@ -104,6 +104,13 @@ export const sections: Section[] = [
         view: 'portfolio',
         items: [
             {
+                title: "From Operational Errors to Train Collisions: The Story Behind Spain's Rail Accidents",
+                category: 'Fixer',
+                source: 'Phoenix TV',
+                date: 'October 2026',
+                href: 'https://mp.weixin.qq.com/s/5y5wcB6L428SlhUECRl66g',
+            },
+            {
                 title: 'Chinese women seek to break out of traditional roles',
                 category: 'Fixer',
                 source: 'El País',
