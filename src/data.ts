@@ -56,44 +56,23 @@ export const sections: Section[] = [
         items: [
             {
                 title: 'Fixer, China Bureau, El País | Beijing',
-                meta: 'February 2025 – Present',
-                details:
-                    '',
-                bullets: [
-                    "Cover EU-China relations from within China — e.g. reported on the EUChina EV tariff dispute; visited Chinese export manufacturing hubs to gather exporters' perspectives on global trade.",
-                    "Identify and pitch stories relevant to Spanish-speaking audiences, drawing on sourcing and trust-building — e.g. Chinese public reaction to the Spanish Prime Minister's visit to China.",
-                    "Conduct interviews, interpretation, and field investigation across Chinese, Spanish, and English, providing cultural mediation to ensure communication is accurate and appropriate across both settings.",
-                    "Review Spanish reporters' copy prior to publication, checking accuracy of Chinese terms, political context, and cultural nuance; also draft background briefings and source summaries in support of the reporting team.",
-                ],
+                meta: '2025 – Present',
             },
             {
                 title: 'Contributing Reporter, International Desk, Phoenix Weekly | Europe/Remote',
-                meta: 'March 2024 – Present',
-                details:
-                    '',
-                bullets: [
-                    "Write investigative features on Europe through fieldwork — e.g. covered local anti-overtourism protests; investigated the structural problems of vulnerable urban neighbourhoods, interviewing residents, scholars, and local criminal networks.",
-                    "Report on International relations and the experiences of Chinese individuals and companies overseas",
-                    "Conduct interviews in Spanish or English with native speakers, synthesising findings through multi-source interviewing, open-source investigation, and fact-checking, with multiple pieces exceeding 100,000 views."
-                ],
+                meta: '2024 – Present',
             },
             {
                 title: 'Marketing Intern, Nomahub | Barcelona',
-                meta: 'January 2024 – February 2024',
-                details:
-                    'Worked in a fully Spanish-speaking team to identify and vet local influencer profiles for brand campaigns including La Pedrera and Emma Colchón, managing outreach and coordination with collaborators.',
+                meta: '2024',
             },
             {
                 title: 'Spanish Language Intern, CCTV+ | Beijing',
-                meta: 'February 2023 – April 2023',
-                details:
-                    'Contributed to short-form video content for platforms such as YouTube, assisting with filming, editing, subtitle translation and localisation for Spanish- and English-speaking markets.',
+                meta: '2023',
             },
             {
                 title: 'Digital Content Intern, China Newsweek | Beijing',
-                meta: 'November 2022 – February 2023',
-                details:
-                    'Produced explanatory content for digital platforms, turning trending cultural phenomena into in-depth analytical pieces and continuing as a freelance contributor with ongoing commissions following the internship.',
+                meta: '2022 – 2023',
             },
 
         ],
